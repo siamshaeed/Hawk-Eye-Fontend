@@ -1,0 +1,42 @@
+/* This Code For Logo and Nav section */
+.myLogo{
+    font-size: 26px;
+}
+.myresponsive{
+    padding: 0px;
+}
+.myNav{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/* End Logo and Nav */
+/* About Start */
+.bar{
+    height: 7px;
+    width: 400px;
+    background: #00A399;
+    margin-bottom: 8px;
+    transition: .1s;
+}
+.bar:hover{
+    width: 450px;
+    background: #84BADE;
+}
+.barshort{
+    height: 7px;
+    width: 200px;
+    background: #00A399;
+    margin-bottom: 8px;
+    transition: .1s;
+}
+.barshort:hover{
+    width: 250px;
+    background: #84BADE;
+}
+.green{
+    color: #009F95;
+}
+    
+/* About End */
+
