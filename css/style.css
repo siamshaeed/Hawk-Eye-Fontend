@@ -49,3 +49,105 @@
     }
 }
 
+
+
+
+
+/* fack */
+.team-item {
+    width: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient(127deg, #fff 0%, #fff 91%);
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+    padding: 25px;
+    font-size: 17px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.team-item:before {
+    content: '';
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    background: #009F82;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.team-item .header {
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.team-item .header .img {
+    float: left;
+    width: 76px;
+    margin-right: 20px;
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.team-item .body {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #647E95;
+    /* letter-spacing: 0.88px; */
+    position: relative;
+    z-index: 2;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.team-item .social {
+    font-size: 25px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    /* overflow: hidden; */
+    width: 80px;
+    /* height: 32px; */
+    background: #fff;
+    border-radius: 3px 0px 0px 3px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 2;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.11);
+}
+.team-item .social ul {
+    margin-bottom: 0px;
+}
+
+.team-item .social ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/* Start Footer */
+.footerBgMain{
+    height: 80px;
+    width: 100%;
+    background: #343A40;
+}
