@@ -14,29 +14,38 @@
 /* About Start */
 .bar{
     height: 7px;
-    width: 400px;
+    width: 230px;
     background: #00A399;
     margin-bottom: 8px;
     transition: .1s;
 }
 .bar:hover{
-    width: 450px;
+    width: 250px;
     background: #84BADE;
 }
 .barshort{
     height: 7px;
-    width: 200px;
+    width: 120px;
     background: #00A399;
     margin-bottom: 8px;
     transition: .1s;
 }
 .barshort:hover{
-    width: 250px;
+    width: 150px;
     background: #84BADE;
 }
 .green{
     color: #009F95;
-}
-    
+}   
 /* About End */
+
+/* All Media Query Code Here */
+@media (min-width: 320px) and (max-width: 480px) {
+    .myLogo{
+        font-size: 18px !important;
+    }
+    .mobailHeading{
+        font-size: 18px !important;
+    }
+}
 
