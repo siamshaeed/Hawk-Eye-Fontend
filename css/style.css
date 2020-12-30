@@ -47,6 +47,9 @@
     .mobailHeading{
         font-size: 18px !important;
     }
+    .team-item{
+        width: 100%;
+    }
 }
 
 /* For Team Member */
