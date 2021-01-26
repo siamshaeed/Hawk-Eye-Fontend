@@ -143,6 +143,9 @@
     margin: 0;
     list-style: none;
 }
+.color-git{
+	color: #147C69;
+}
 /* Start Footer */
 .footerBgMain{
     height: 80px;
